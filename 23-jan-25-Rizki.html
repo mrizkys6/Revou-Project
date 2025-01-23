@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Rizki</title>
-    <link rel="stylesheet" href-="styles.css">
     <style>
         article{
             background-color: blue;
@@ -14,18 +13,26 @@
             color: black;
         }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header style="background-color: tomato;">
-        <h1>Rizki Syahputra</h1>    
+    <header style="background-color: tomato; display: flex
+    ;justify-content: space-between;">
+        <h1>Rizki Syahputra(kiri)</h1>    
+        <h1>Rizki Syahputra(kanan)</h1>    
     </header>
     <article>
         <p class="paragrap" id="p1">Rizki is web application</p>
         <p class="paragrap">Rizki is web application</p>
+        <button onclick="clickMe()">clickMe</button>
     </article>
     <footer>
         <span>made by rizki</span>
     </footer>
-
+    <script>
+        function clickMe(){
+            alert("selamat anda mendapatkan sepeda")
+        }
+    </script>
 </body>
 </html>
